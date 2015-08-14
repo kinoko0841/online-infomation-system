@@ -1,0 +1,17 @@
+<style type="text/css">
+body{
+background-image:url(background-fast-food-24106439.jpg);
+}
+#all {
+height:35cm;
+background-color:#eee9d7;
+margin:0cm 3cm 0cm 3cm;
+}
+form{
+background-color:#eee9d7;
+padding:40px 0px 0px 0px;
+//margin:0cm 3cm 0cm 3cm;
+font:italic bold 12px/20px arial,sans-serif;
+text-align:center;
+}
+</style>

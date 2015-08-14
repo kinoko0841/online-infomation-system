@@ -1,0 +1,30 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<style type="text/css">
+body{
+background-image:url(background-fast-food-24106439.jpg);
+}
+</style>
+<body>
+<form action="login.php" method="post" name="f1">
+Username:
+<input type="text" name="username" />
+Password:
+<input type="password" name="password" />
+<input type="submit" value="submit" onclick="checkvalidation()"/>
+</form>
+</div>
+</body>
+<script text="javascript">
+function checkvalidation(){
+	if(document.f1.username.value==""){
+		window.alert("Input username")
+	}
+	if(document.f1.password.value==""){
+		window.alert("Input password")
+	}
+}
+</script>
+</html>
